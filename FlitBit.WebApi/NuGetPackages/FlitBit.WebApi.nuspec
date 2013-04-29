@@ -22,7 +22,6 @@
 		<dependency id="FlitBit.Emit" />
 		<dependency id="FlitBit.IoC" />
 		<dependency id="FlitBit.Wireup" />
-		<dependency id="FlitBit.Wireup" />
 		<dependency id="Newtonsoft.Json" />
     </dependencies>
   </metadata>
