@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>FlitBit.Wireup</id>
-    <version>2.5.6</version>
+    <version>2.5.4</version>
     <title>FlitBit.Wireup</title>
     <authors>Phillip Clark</authors>
     <owners>Phillip Clark</owners>
@@ -13,7 +13,7 @@
     <releaseNotes>Re-signed assembly.</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <dependencies>
-      <dependency id="FlitBit.Core" version="2.10.1" />
+      <dependency id="FlitBit.Core" version="2.9.0" />
     </dependencies>
   </metadata>
 </package>

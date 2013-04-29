@@ -6,7 +6,7 @@
   <members>
     <member name="T:FlitBit.Wireup.AssemblyDependency">
       <summary>
-              Dependency identifying an assembly and version.
+              Structure around a key-value-pair.
             </summary>
     </member>
     <member name="M:FlitBit.Wireup.AssemblyDependency.#ctor(System.String,System.String)">
@@ -81,23 +81,6 @@
               Gets the assembly's version.
             </summary>
     </member>
-    <member name="T:FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElementCollection">
-      <summary>
-              Configuration element collection for ignore elements.
-            </summary>
-    </member>
-    <member name="M:FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElementCollection.#ctor">
-      <summary>
-            Creates a new instance.
-            </summary>
-    </member>
-    <member name="M:FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElementCollection.PerformGetElementKey(FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElement)">
-      <summary>
-              Gets the element's key
-            </summary>
-      <param name="element">the element</param>
-      <returns>the key</returns>
-    </member>
     <member name="T:FlitBit.Wireup.Configuration.WireupConfigurationElementCollection">
       <summary>
               Configuration element collection for wireup elements.
@@ -110,51 +93,6 @@
       <param name="element">the element</param>
       <returns>the key</returns>
     </member>
-    <member name="T:FlitBit.Wireup.Configuration.WireupIgnoreStrategy">
-      <summary>
-            Determines how wireup ignore configuration elements are processed.
-            </summary>
-    </member>
-    <member name="F:FlitBit.Wireup.Configuration.WireupIgnoreStrategy.Default">
-      <summary>
-            Default behavior: matches.
-            </summary>
-    </member>
-    <member name="F:FlitBit.Wireup.Configuration.WireupIgnoreStrategy.Regex">
-      <summary>
-            Indicates the assemby name should be matched using regex.
-            </summary>
-    </member>
-    <member name="F:FlitBit.Wireup.Configuration.WireupIgnoreStrategy.StartsWith">
-      <summary>
-            Indicates the assembly name is a match if it begins with the given value.
-            </summary>
-    </member>
-    <member name="F:FlitBit.Wireup.Configuration.WireupIgnoreStrategy.EndsWith">
-      <summary>
-            Indicates the assembly name is a match if it ends with the given value.
-            </summary>
-    </member>
-    <member name="F:FlitBit.Wireup.Configuration.WireupIgnoreStrategy.Exact">
-      <summary>
-            Indicates the assembly name must match exactly.
-            </summary>
-    </member>
-    <member name="T:FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElement">
-      <summary>
-              Configuration element for assemblies to ignore during wireup.
-            </summary>
-    </member>
-    <member name="P:FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElement.AssemblyMatchSpec">
-      <summary>
-              Assembly match specification.
-            </summary>
-    </member>
-    <member name="P:FlitBit.Wireup.Configuration.WireupIgnoreConfigurationElement.Strategy">
-      <summary>
-              The strategy used when checking whether assemblies match
-            </summary>
-    </member>
     <member name="T:FlitBit.Wireup.Configuration.WireupConfigurationSection">
       <summary>
               Configuration section for wireup.
@@ -163,11 +101,6 @@
     <member name="P:FlitBit.Wireup.Configuration.WireupConfigurationSection.Assemblies">
       <summary>
               Gets the collection of configured assemblies.
-            </summary>
-    </member>
-    <member name="P:FlitBit.Wireup.Configuration.WireupConfigurationSection.Ignore">
-      <summary>
-              Gets the collection of ignore specifications.
             </summary>
     </member>
     <member name="P:FlitBit.Wireup.Configuration.WireupConfigurationSection.HookAssemblyLoad">
@@ -500,8 +433,7 @@
     </member>
     <member name="M:FlitBit.Wireup.WireupCoordinator.SelfConfigure">
       <summary>
-              Causes the wireup coordinator to self-configure; this will bootstrap the WireupCoordinator if it
-            has not already been wired, then wireup the calling assembly.
+              Causes the wireup coordinator to self-configure.
             </summary>
       <returns>the coordinator after it self-configures</returns>
     </member>

@@ -22,7 +22,7 @@
 		<dependency id="FlitBit.Core" />
 		<dependency id="FlitBit.Emit" />
 		<dependency id="FlitBit.IoC" />
-		<dependency id="FlitBit.Wireup" />
+		<dependency id="FlitBit.Wireup" version="[2.5.4]" />
 		<dependency id="Newtonsoft.Json" />
     </dependencies>
   </metadata>
