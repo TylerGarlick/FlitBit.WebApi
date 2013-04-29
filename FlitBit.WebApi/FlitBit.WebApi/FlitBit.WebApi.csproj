@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyWireupWebApiModelBinderProvider.cs" />
+    <Compile Include="HttpModules\ContainerScopePerRequestHttpModule.cs" />
     <Compile Include="IoC\ContainerScopePerRequestHttpModule.cs" />
     <Compile Include="ModelBinding\DtoJsonNetFormatter.cs" />
     <Compile Include="IoC\WebApiDtoHttpControllerActivator.cs" />

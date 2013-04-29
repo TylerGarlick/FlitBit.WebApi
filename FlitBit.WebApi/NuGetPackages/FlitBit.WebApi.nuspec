@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>FlitBit.WebApi</id>
+    <version>1.0.0</version>
+    <authors>Tyler Garlick</authors>
+    <owners>Tyler Garlick</owners>
+    <projectUrl>https://github.com/TylerGarlick/FlitBit.WebApi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Get started with FlitBit Framework and Web Api</description>
+    <copyright>Copyright 2013</copyright>
+    <tags>FlitBit, WebApi, FlitBit.IoC, FlitBit.Dto</tags>
+    <dependencies>
+		<dependency id="FlitBit.Copy" />
+		<dependency id="FlitBit.Core" />
+		<dependency id="FlitBit.Emit" />
+		<dependency id="FlitBit.IoC" />
+		<dependency id="FlitBit.Wireup" />
+		<dependency id="FlitBit.Wireup" />
+		<dependency id="Newtonsoft.Json" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="FlitBit.WebApi.dll" target="lib\net45" />
+  </files>
+</package>
