@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>FlitBit.WebApi</id>
-    <version>1.0.0</version>
+    <version>$version$</version>
     <authors>Tyler Garlick</authors>
     <owners>Tyler Garlick</owners>
     <projectUrl>https://github.com/TylerGarlick/FlitBit.WebApi</projectUrl>
