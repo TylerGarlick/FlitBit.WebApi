@@ -12,17 +12,8 @@
     <tags>FlitBit, WebApi, FlitBit.IoC, FlitBit.Dto</tags>
     <dependencies>
 		<dependency id="Microsoft.AspNet.WebApi" />
-		<dependency id="Microsoft.AspNet.WebApi.Client" />
-		<dependency id="Microsoft.AspNet.WebApi.Core" />
-		<dependency id="Microsoft.AspNet.WebApi.WebHost" />
-		<dependency id="Microsoft.Net.Http" />
-		<dependency id="Microsoft.Web.Infrastructure" />
-		<dependency id="FlitBit.Copy" />
 		<dependency id="FlitBit.Dto" />
-		<dependency id="FlitBit.Core" />
-		<dependency id="FlitBit.Emit" />
 		<dependency id="FlitBit.IoC" />
-		<dependency id="FlitBit.Wireup" version="[2.5.4]" />
 		<dependency id="Newtonsoft.Json" />
     </dependencies>
   </metadata>

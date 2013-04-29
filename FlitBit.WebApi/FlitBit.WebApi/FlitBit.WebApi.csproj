@@ -47,6 +47,10 @@
     <Reference Include="FlitBit.IoC">
       <HintPath>..\packages\FlitBit.IoC.2.8.2\lib\net40\FlitBit.IoC.dll</HintPath>
     </Reference>
+    <Reference Include="FlitBit.Wireup, Version=2.5.4.0, Culture=neutral, PublicKeyToken=38f03d0878531ff3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\FlitBit.Wireup.2.5.4\lib\net40\FlitBit.Wireup.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
