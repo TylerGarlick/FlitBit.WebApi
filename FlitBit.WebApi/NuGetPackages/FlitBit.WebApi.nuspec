@@ -18,6 +18,7 @@
 		<dependency id="Microsoft.Net.Http" />
 		<dependency id="Microsoft.Web.Infrastructure" />
 		<dependency id="FlitBit.Copy" />
+		<dependency id="FlitBit.Dto" />
 		<dependency id="FlitBit.Core" />
 		<dependency id="FlitBit.Emit" />
 		<dependency id="FlitBit.IoC" />
