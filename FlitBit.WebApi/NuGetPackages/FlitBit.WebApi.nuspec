@@ -11,13 +11,14 @@
     <copyright>Copyright 2013</copyright>
     <tags>FlitBit, WebApi, FlitBit.IoC, FlitBit.Dto</tags>
     <dependencies>
-		<dependency id="Microsoft.AspNet.WebApi" />
-		<dependency id="FlitBit.Dto" />
-		<dependency id="FlitBit.IoC" />
-		<dependency id="Newtonsoft.Json" />
+      <dependency id="Microsoft.AspNet.WebApi" />
+      <dependency id="FlitBit.Dto" />
+      <dependency id="FlitBit.IoC" />
+      <dependency id="Newtonsoft.Json" />
+      <dependency id="RedRocket.Utilities.Core" />
     </dependencies>
   </metadata>
   <files>
-      <file src="FlitBit.WebApi.dll" target="lib\net45" />
+    <file src="FlitBit.WebApi.dll" target="lib\net45" />
   </files>
 </package>
