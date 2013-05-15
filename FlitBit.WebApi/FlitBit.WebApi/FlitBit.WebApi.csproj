@@ -51,6 +51,7 @@
     <Reference Include="FlitBit.IoC, Version=2.10.0.0, Culture=neutral, PublicKeyToken=38f03d0878531ff3, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FlitBit.IoC.2.10.0\lib\net40\FlitBit.IoC.dll</HintPath>
+    </Reference>
     <Reference Include="FlitBit.IoC">
       <HintPath>..\packages\FlitBit.IoC.2.9.0\lib\net40\FlitBit.IoC.dll</HintPath>
     </Reference>
